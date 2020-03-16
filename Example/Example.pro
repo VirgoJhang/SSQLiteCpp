@@ -5,7 +5,9 @@ CONFIG -= qt
 
 INCLUDEPATH += \
     $$PWD/../
-LIBS += -ldl -pthread \
-    $$PWD/../libSSQLiteCpp.a
+LIBS += \
+    -pthread \
+    $$PWD/../libSSQLiteCpp.a \
+    -ldl
 SOURCES += \
         main.cpp

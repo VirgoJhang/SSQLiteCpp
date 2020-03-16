@@ -1,5 +1,5 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    Example \
-    SSQLiteCpp
+    SSQLiteCpp \
+    Example
